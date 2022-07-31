@@ -1,4 +1,4 @@
-import React, { useState, useEffect, FormEvent } from 'react';
+import { useState, FormEvent } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -26,9 +26,9 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between w-full px-4 py-2 border-b-2 border-gray-200">
       <Link href="/">
-        <h1 className="text-4xl font-extrabold tracking-widest text-[#f51997]">
+        <a className="text-4xl font-extrabold tracking-widest text-[#f51997]">
           TOKTOK
-        </h1>
+        </a>
       </Link>
       <div className="relative hidden md:block">
         <form className="absolute bg-white md:static top-10 -left-20">

@@ -1,4 +1,3 @@
-import React from 'react';
 import { BiCommentX } from 'react-icons/bi';
 import { MdOutlineVideocamOff } from 'react-icons/md';
 
